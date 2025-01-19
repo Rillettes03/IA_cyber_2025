@@ -46,12 +46,10 @@ Voici les principaux composants du projet :
 
 Les logs bruts sont collectés, parsés et nettoyés avec Logstash avant d’être envoyés dans ElasticSearch, où ils sont indexés pour un accès rapide et structuré. Cela permet d’utiliser ces données comme base pour l’entraînement du modèle d’intelligence artificielle.
 
-Étape 1 : Parsing et Nettoyage
-Logstash est utilisé pour parser les logs bruts, supprimer les champs inutiles et normaliser les données.
+Étape 1 : Logstash est utilisé pour parser les logs bruts, supprimer les champs inutiles et normaliser les données.
 Les logs nettoyés sont envoyés dans un index ElasticSearch dédié.
 
-Étape 2 : Indexation
-Les logs normalisés sont indexés dans ElasticSearch, rendant les données accessibles via des requêtes.
+Étape 2 : Les logs normalisés sont indexés dans ElasticSearch, rendant les données accessibles via des requêtes.
 
 ## Entraînement de l'IA
 
