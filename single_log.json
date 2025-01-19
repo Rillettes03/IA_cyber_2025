@@ -1,0 +1,21 @@
+[
+  {
+    "message": "Jul  5 08:37:26 in-target: S\u00e9lection du paquet librygel-db-2.8-0:amd64 pr\u00e9c\u00e9demment d\u00e9s\u00e9lectionn\u00e9.^M",
+    "@timestamp": "2024-12-16T10:21:49.497270197Z",
+    "host": {
+      "name": "NOETHER13"
+    },
+    "@version": "1",
+    "event": {
+      "original": "Jul  5 08:37:26 in-target: S\u00e9lection du paquet librygel-db-2.8-0:amd64 pr\u00e9c\u00e9demment d\u00e9s\u00e9lectionn\u00e9.^M"
+    },
+    "tags": [
+      "_grokparsefailure"
+    ],
+    "log": {
+      "file": {
+        "path": "/var/log/installer/syslog"
+      }
+    }
+  }
+]

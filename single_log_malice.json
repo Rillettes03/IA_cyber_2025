@@ -1,0 +1,21 @@
+[
+    {
+        "message": "2025-01-19T03:21:45.003211+01:00 NOETHER13 sshd[4582]: Failed password for invalid user admin from 192.168.1.105 port 2222 ssh2",
+        "event": {
+            "original": "2025-01-19T03:21:45.003211+01:00 NOETHER13 sshd[4582]: Failed password for invalid user admin from 192.168.1.105 port 2222 ssh2"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "ssh", "auth_failure"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/auth.log"
+            }
+        },
+        "@timestamp": "2025-01-19T03:21:45.003211Z"
+    }
+]

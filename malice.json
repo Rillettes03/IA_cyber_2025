@@ -1,0 +1,192 @@
+[
+    {
+        "message": "2025-01-19T03:21:45.003211+01:00 NOETHER13 sshd[4582]: Failed password for invalid user admin from 192.168.1.105 port 2222 ssh2",
+        "event": {
+            "original": "2025-01-19T03:21:45.003211+01:00 NOETHER13 sshd[4582]: Failed password for invalid user admin from 192.168.1.105 port 2222 ssh2"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "ssh", "auth_failure"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/auth.log"
+            }
+        },
+        "@timestamp": "2025-01-19T03:21:45.003211Z"
+    },
+    {
+        "message": "2025-01-19T04:14:33.217845+01:00 NOETHER13 nmap[2019]: Nmap scan detected from 192.168.1.108 on port 80",
+        "event": {
+            "original": "2025-01-19T04:14:33.217845+01:00 NOETHER13 nmap[2019]: Nmap scan detected from 192.168.1.108 on port 80"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "nmap", "port_scan"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/syslog"
+            }
+        },
+        "@timestamp": "2025-01-19T04:14:33.217845Z"
+    },
+    {
+        "message": "2025-01-19T05:12:18.452908+01:00 NOETHER13 sshd[4823]: Failed password for invalid user root from 203.0.113.5 port 1024 ssh2",
+        "event": {
+            "original": "2025-01-19T05:12:18.452908+01:00 NOETHER13 sshd[4823]: Failed password for invalid user root from 203.0.113.5 port 1024 ssh2"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "ssh", "auth_failure"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/auth.log"
+            }
+        },
+        "@timestamp": "2025-01-19T05:12:18.452908Z"
+    },
+    {
+        "message": "2025-01-19T06:45:10.754123+01:00 NOETHER13 firewall[6038]: Port scan detected from 198.51.100.2 targeting ports 22, 80, 443",
+        "event": {
+            "original": "2025-01-19T06:45:10.754123+01:00 NOETHER13 firewall[6038]: Port scan detected from 198.51.100.2 targeting ports 22, 80, 443"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "firewall", "port_scan"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/firewall.log"
+            }
+        },
+        "@timestamp": "2025-01-19T06:45:10.754123Z"
+    },
+    {
+        "message": "2025-01-19T07:33:52.908331+01:00 NOETHER13 sshd[7123]: Failed password for invalid user guest from 192.168.1.120 port 2222 ssh2",
+        "event": {
+            "original": "2025-01-19T07:33:52.908331+01:00 NOETHER13 sshd[7123]: Failed password for invalid user guest from 192.168.1.120 port 2222 ssh2"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "ssh", "auth_failure"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/auth.log"
+            }
+        },
+        "@timestamp": "2025-01-19T07:33:52.908331Z"
+    },
+    {
+        "message": "2025-01-19T08:12:45.623712+01:00 NOETHER13 sshd[9214]: Failed password for invalid user test from 192.168.1.125 port 2022 ssh2",
+        "event": {
+            "original": "2025-01-19T08:12:45.623712+01:00 NOETHER13 sshd[9214]: Failed password for invalid user test from 192.168.1.125 port 2022 ssh2"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "ssh", "auth_failure"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/auth.log"
+            }
+        },
+        "@timestamp": "2025-01-19T08:12:45.623712Z"
+    },
+    {
+        "message": "2025-01-19T09:25:33.112938+01:00 NOETHER13 nmap[3842]: Nmap scan detected from 203.0.113.45 targeting ports 21, 22, 25, 80",
+        "event": {
+            "original": "2025-01-19T09:25:33.112938+01:00 NOETHER13 nmap[3842]: Nmap scan detected from 203.0.113.45 targeting ports 21, 22, 25, 80"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "nmap", "port_scan"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/syslog"
+            }
+        },
+        "@timestamp": "2025-01-19T09:25:33.112938Z"
+    },
+    {
+        "message": "2025-01-19T10:45:11.223940+01:00 NOETHER13 sshd[1268]: Failed password for invalid user support from 198.51.100.8 port 2323 ssh2",
+        "event": {
+            "original": "2025-01-19T10:45:11.223940+01:00 NOETHER13 sshd[1268]: Failed password for invalid user support from 198.51.100.8 port 2323 ssh2"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "ssh", "auth_failure"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/auth.log"
+            }
+        },
+        "@timestamp": "2025-01-19T10:45:11.223940Z"
+    },
+    {
+        "message": "2025-01-19T11:58:21.114582+01:00 NOETHER13 firewall[2110]: Port scan detected from 192.0.2.55 targeting ports 53, 110, 143",
+        "event": {
+            "original": "2025-01-19T11:58:21.114582+01:00 NOETHER13 firewall[2110]: Port scan detected from 192.0.2.55 targeting ports 53, 110, 143"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "firewall", "port_scan"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/firewall.log"
+            }
+        },
+        "@timestamp": "2025-01-19T11:58:21.114582Z"
+    },
+    {
+        "message": "2025-01-19T12:34:15.675839+01:00 NOETHER13 sshd[3209]: Failed password for invalid user ftp from 203.0.113.102 port 8080 ssh2",
+        "event": {
+            "original": "2025-01-19T12:34:15.675839+01:00 NOETHER13 sshd[3209]: Failed password for invalid user ftp from 203.0.113.102 port 8080 ssh2"
+        },
+        "host": {
+            "name": "NOETHER13"
+        },
+        "@version": "1",
+        "tags": [
+            "ssh", "auth_failure"
+        ],
+        "log": {
+            "file": {
+                "path": "/var/log/auth.log"
+            }
+        },
+        "@timestamp": "2025-01-19T12:34:15.675839Z"
+    }
+]
