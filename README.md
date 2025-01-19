@@ -40,7 +40,7 @@ Voici les principaux composants du projet :
 
 1. Clonez le dépôt :
    ```bash
-   git clone [https://github.com/Rillettes03/IA_cyber_2025.git](https://github.com/Rillettes03/IA_cyber_2025.git)
+   git clone https://github.com/Rillettes03/IA_cyber_2025.git
 
 ## Pipeline de Traitement des Logs
 
